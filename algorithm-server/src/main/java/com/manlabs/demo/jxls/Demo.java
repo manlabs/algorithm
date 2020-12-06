@@ -30,7 +30,7 @@ public class Demo {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MMM-dd", Locale.US);
         List<Employee> res = new ArrayList<>();
         ArrayList<Employee> chilren = new ArrayList<>();
-        res.add( new Employee("Elsa", dateFormat.parse("1970-Jul-10"), 1500, 0.15,10,chilren));
+        res.add( new Employee("a\nafafa", dateFormat.parse("1970-Jul-10"), 1500, 0.15,10,chilren));
 
         chilren.add(new Employee("child1", dateFormat.parse("1970-Jul-10"), 1500, 0.15,5,chilren));
         chilren.add(new Employee("child1", dateFormat.parse("1970-Jul-10"), 1500, 0.15,3,chilren));
